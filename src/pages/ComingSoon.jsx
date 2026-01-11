@@ -85,7 +85,9 @@ export default function ComingSoon() {
                     disabled={status === "submitting"}
                     className="coming-soon__button"
                   >
-                    {status === "submitting" ? "..." : "notify me"}
+                    {status === "submitting"
+                      ? "loading... one sec"
+                      : "notify me"}
                   </button>
                 </div>
                 {status === "error" && (
