@@ -1,0 +1,23 @@
+{
+  "siteName": "Cow-Boys Collab",
+  "tagline": "tagline",
+  "social": {
+    "instagram": "cow_boys_collab",
+    "email": "cow.boys.collab@gmail.com"
+  },
+  "shopify": {
+    "domain": "",
+    "storefrontAccessToken": ""
+  },
+  "mailchimp": {
+    "formAction": "",
+    "userId": "",
+    "listId": ""
+  },
+  "navigation": [
+    { "label": "Shop", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Contact", "path": "/contact" },
+    { "label": "Blog", "path": "/blog" }
+  ]
+}
