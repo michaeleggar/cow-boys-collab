@@ -228,81 +228,6 @@
   margin-bottom: var(--space-8);
 }
 
-/* Countdown timer */
-.countdown {
-  display: flex;
-  gap: var(--space-2);
-  font-family: var(--font-mono);
-}
-
-.countdown__segment {
-  text-align: center;
-}
-
-.countdown__value {
-  font-size: var(--text-xl);
-  font-weight: 700;
-}
-
-.countdown__label {
-  font-size: var(--text-xs);
-  display: block;
-}
-
-.countdown__separator {
-  font-size: var(--text-xl);
-  font-weight: 700;
-}
-
-.countdown--complete {
-  font-family: var(--font-mono);
-  font-weight: 700;
-}
-
-/* Email signup */
-.email-signup {
-  padding: var(--space-6) 0;
-  border-top: var(--border);
-  margin-top: var(--space-6);
-}
-
-.email-signup__title {
-  font-family: var(--font-mono);
-  font-size: var(--text-base);
-  margin-bottom: var(--space-4);
-  text-transform: lowercase;
-}
-
-.email-signup__form {
-  display: flex;
-  gap: var(--space-2);
-  margin-bottom: var(--space-2);
-}
-
-.email-signup__input {
-  flex: 1;
-  padding: var(--space-3);
-  font-family: var(--font-mono);
-  font-size: var(--text-sm);
-  border: var(--border);
-  background: var(--color-background);
-}
-
-.email-signup__input:focus {
-  outline: 2px solid var(--color-text);
-  outline-offset: 2px;
-}
-
-.email-signup__button {
-  padding: var(--space-3) var(--space-6);
-}
-
-.email-signup__disclaimer {
-  font-size: var(--text-xs);
-  color: var(--color-text-muted);
-  margin: 0;
-}
-
 /* Archive toggle */
 .drops-archive {
   margin-top: var(--space-6);
@@ -332,11 +257,12 @@
 
 /* Coming Soon Page */
 .coming-soon {
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: var(--space-4);
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  padding: 5rem var(--space-4);
   background: var(--color-background);
 }
 
@@ -354,18 +280,9 @@
   text-transform: lowercase;
 }
 
-.coming-soon__message {
-  font-family: var(--font-mono);
-  font-size: var(--text-xl);
-  margin-bottom: var(--space-4);
-  text-transform: lowercase;
-}
-
-.coming-soon__tagline {
-  font-family: var(--font-sans);
-  font-size: var(--text-base);
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-8);
+#home-feature {
+  width: 600px;
+  margin-top: 4rem;
 }
 
 .coming-soon__form {
@@ -382,7 +299,6 @@
 
 .coming-soon__input-group {
   display: flex;
-  gap: var(--space-2);
 }
 
 .coming-soon__input {
@@ -392,11 +308,22 @@
   font-size: var(--text-sm);
   border: var(--border);
   background: var(--color-background);
+  border-radius: var(--b-radius) var(--b-radius) 0 0;
+  width: 50%;
+}
+
+#email {
+  border-radius: 0 var(--b-radius) 0 0;
+  border-left: none;
+}
+
+#name {
+  border-radius: var(--b-radius) 0 0 0;
 }
 
 .coming-soon__input:focus {
-  outline: 2px solid var(--color-text);
-  outline-offset: 2px;
+  outline: none;
+  background-color: var(--text);
 }
 
 .coming-soon__button {
@@ -406,8 +333,13 @@
   text-transform: lowercase;
   background: var(--color-accent);
   color: var(--color-text);
-  border: var(--border);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  border-right: var(--border);
+  border-top: none;
   cursor: pointer;
+  border-radius: 0 0 var(--b-radius) var(--b-radius);
+  width: 100%;
 }
 
 .coming-soon__button:hover {
@@ -430,7 +362,7 @@
 .coming-soon__error {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: #8B0000;
+  color: #8b0000;
   margin-top: var(--space-2);
 }
 
