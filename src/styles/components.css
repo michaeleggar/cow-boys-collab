@@ -262,7 +262,7 @@
   flex-direction: column;
   justify-content: start;
   flex: 1;
-  padding: 5rem var(--space-4);
+  padding: 2rem var(--space-4);
   background: var(--color-background);
 }
 
@@ -281,12 +281,12 @@
 }
 
 #home-feature {
-  width: 600px;
-  margin-top: 4rem;
+  width: 500px;
+  margin-top: 2rem;
 }
 
 .coming-soon__form {
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-4);
 }
 
 .coming-soon__label {
@@ -354,9 +354,10 @@
 .coming-soon__success {
   font-family: var(--font-mono);
   font-size: var(--text-sm);
-  padding: var(--space-4);
+  padding: var(--space-3);
   border: var(--border);
   background: var(--color-accent);
+  border-radius: var(--b-radius);
 }
 
 .coming-soon__error {

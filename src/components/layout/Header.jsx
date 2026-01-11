@@ -1,3 +1,5 @@
+import logoImg from "../../assets/main-imgs/logo.png";
+
 export default function Header() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Header() {
       <header className="header">
         <button className="header__menu-btn">menu</button>
         <div className="header__logo">
-          <img src="src/assets/main-imgs/logo.png" alt="logo"></img>
+          <img src={logoImg} alt="logo"></img>
         </div>
         <button className="header__bag-btn">bag[0]</button>
       </header>

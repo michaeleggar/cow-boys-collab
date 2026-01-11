@@ -69,6 +69,7 @@ img {
   cursor: pointer;
   padding: 0;
   width: 80px;
+  text-decoration: line-through;
 }
 
 .header__menu-btn {
