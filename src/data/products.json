@@ -1,0 +1,87 @@
+{
+  "categories": [
+    { "id": "dyed", "name": "dyed", "slug": "dyed" },
+    { "id": "sewn", "name": "sewn", "slug": "sewn" },
+    { "id": "printed", "name": "printed", "slug": "printed" }
+  ],
+  "products": [
+    {
+      "id": "product-001",
+      "name": "sunfriend clouds longsleeve",
+      "description": "Hand-dyed longsleeve with cloud pattern",
+      "category": "dyed",
+      "price": 100.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=dyed+shirt"],
+      "shopifyProductId": "",
+      "featured": true,
+      "available": true,
+      "collection": "drop",
+      "dropId": "drop-001"
+    },
+    {
+      "id": "product-002",
+      "name": "desert rose tee",
+      "description": "Natural dye with desert rose pattern",
+      "category": "dyed",
+      "price": 65.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=dyed+tee"],
+      "shopifyProductId": "",
+      "featured": false,
+      "available": true,
+      "collection": "drop",
+      "dropId": "drop-001"
+    },
+    {
+      "id": "product-003",
+      "name": "patchwork denim jacket",
+      "description": "Upcycled denim with custom patches",
+      "category": "sewn",
+      "price": 145.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=sewn+jacket"],
+      "shopifyProductId": "",
+      "featured": true,
+      "available": true,
+      "collection": "permanent",
+      "dropId": null
+    },
+    {
+      "id": "product-004",
+      "name": "hand-drawn sticker pack",
+      "description": "Pack of 5 original stickers",
+      "category": "printed",
+      "price": 12.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=stickers"],
+      "shopifyProductId": "",
+      "featured": false,
+      "available": true,
+      "collection": "permanent",
+      "dropId": null
+    },
+    {
+      "id": "product-005",
+      "name": "cow-boys art print",
+      "description": "11x14 signed art print",
+      "category": "printed",
+      "price": 25.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=art+print"],
+      "shopifyProductId": "",
+      "featured": false,
+      "available": true,
+      "collection": "permanent",
+      "dropId": null
+    },
+    {
+      "id": "product-006",
+      "name": "quilted tote bag",
+      "description": "Handmade quilted tote from vintage fabrics",
+      "category": "sewn",
+      "price": 55.00,
+      "images": ["https://placehold.co/400x400/C4B8A5/3D3528?text=tote+bag"],
+      "shopifyProductId": "",
+      "featured": false,
+      "available": false,
+      "collection": "permanent",
+      "dropId": null
+    }
+  ]
+}

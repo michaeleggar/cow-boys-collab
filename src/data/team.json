@@ -1,0 +1,23 @@
+{
+  "about": {
+    "title": "About Cow-Boys Collab",
+    "description": "cow-boys collab is a two-person art team focused on visual storytelling through murals, upcycled clothing, and hand-crafted prints. We draw inspiration from the textures of everyday life and create work with a sketchy, expressive style that celebrates imperfection and character. Our goal is to make art that feels alive, approachable, and emotionally engaging.",
+    "mission": ""
+  },
+  "team": [
+    {
+      "id": "member-001",
+      "name": "Karis Chambers",
+      "role": "Co-founder",
+      "bio": "",
+      "image": "/images/team/placeholder.jpg"
+    },
+    {
+      "id": "member-001",
+      "name": "Michael Eggar",
+      "role": "Co-founder",
+      "bio": "",
+      "image": "/images/team/placeholder.jpg"
+    }
+  ]
+}

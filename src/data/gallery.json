@@ -1,0 +1,17 @@
+{
+  "gallery": [
+    {
+      "id": "look-001",
+      "title": "our work examples",
+      "description": "",
+      "images": [
+        {
+          "src": "/images/gallery/placeholder.jpg",
+          "alt": "Sample image",
+          "caption": ""
+        }
+      ],
+      "date": "2025-01-01"
+    }
+  ]
+}

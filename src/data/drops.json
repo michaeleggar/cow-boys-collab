@@ -1,0 +1,37 @@
+{
+  "drops": [
+    {
+      "id": "drop-001",
+      "name": "desert sun collection",
+      "description": "Hand-dyed pieces inspired by southwestern sunsets",
+      "status": "active",
+      "dropDate": "2025-01-01T18:00:00Z",
+      "endDate": null,
+      "coverImage": "https://placehold.co/600x300/C4B8A5/3D3528?text=desert+sun+drop",
+      "productIds": ["product-001", "product-002"],
+      "featured": true
+    },
+    {
+      "id": "drop-002",
+      "name": "winter trails",
+      "description": "Cozy pieces for the cold months",
+      "status": "upcoming",
+      "dropDate": "2025-02-14T18:00:00Z",
+      "endDate": null,
+      "coverImage": "https://placehold.co/600x300/C4B8A5/3D3528?text=winter+trails",
+      "productIds": [],
+      "featured": true
+    },
+    {
+      "id": "drop-archive-001",
+      "name": "summer dust",
+      "description": "Our debut collection - sold out",
+      "status": "archived",
+      "dropDate": "2024-06-01T18:00:00Z",
+      "endDate": "2024-07-01T23:59:59Z",
+      "coverImage": "https://placehold.co/600x300/C4B8A5/3D3528?text=summer+dust",
+      "productIds": [],
+      "featured": false
+    }
+  ]
+}
