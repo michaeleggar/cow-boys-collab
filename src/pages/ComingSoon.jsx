@@ -15,15 +15,6 @@ export default function ComingSoon() {
     // Google Apps Script URL - configure in .env as VITE_FORM_URL
     const formUrl = import.meta.env.VITE_FORM_URL;
 
-    if (!formUrl) {
-      // If no form URL configured, just show success (for development)
-      console.log("Form submitted:", { name, email });
-      setStatus("success");
-      setName("");
-      setEmail("");
-      return;
-    }
-
     try {
       await fetch(formUrl, {
         method: "POST",
@@ -53,12 +44,12 @@ export default function ComingSoon() {
         <div className="coming-soon__content">
           <h1 className="coming-soon__logo">a neat little shop coming soon</h1>
           <p className="coming-soon__tagline">
-            upcycled clothing, art prints, and other stuff
+            upcycled clothing, art prints, and some other stuff
           </p>
           <form className="coming-soon__form" onSubmit={handleSubmit}>
             {status === "success" ? (
               <p className="coming-soon__success">
-                thanks! we'll keep you posted.
+                thanks! we'll keep you posted :^)
               </p>
             ) : (
               <>
@@ -99,7 +90,7 @@ export default function ComingSoon() {
                 </div>
                 {status === "error" && (
                   <p className="coming-soon__error">
-                    something went wrong. try again?
+                    something went wrong :^( try again?
                   </p>
                 )}
               </>
